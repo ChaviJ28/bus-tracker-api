@@ -9,7 +9,7 @@ module.exports = {
     datastores: {
         default: {
             adapter: "sails-mongo",
-            url: "mongodb+srv://surujbhalichavi:ziQd47gzK4KKeSf7@mapbox-local-test.nrrcqrs.mongodb.net/bus-tracker-dev?retryWrites=true&w=majority"
+            url: "mongodb+srv://surujbhalichavi:ziQd47gzK4KKeSf7@mapbox-local-test.nrrcqrs.mongodb.net/bus-tracker-staging?retryWrites=true&w=majority"
         }
     },
 
