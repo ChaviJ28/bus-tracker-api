@@ -19,7 +19,7 @@ module.exports = {
         level: "debug"
     },
 
-    port: 3002,
+    port: 3000,
 
     // ssl: undefined
 
