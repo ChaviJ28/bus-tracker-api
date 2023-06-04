@@ -34,6 +34,6 @@ module.exports = {
 
         recordList = await promise.then();
 
-        return exits.success(returnList);
+        return exits.success(recordList);
     }
 };

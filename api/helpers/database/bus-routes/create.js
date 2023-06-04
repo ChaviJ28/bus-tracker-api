@@ -9,7 +9,7 @@ module.exports = {
     },
 
     fn: async function(inputs, exits) {
-        var recordsAdded = await User.create(inputs.params).fetch();
+        var recordsAdded = await BusRoutes.create(inputs.params).fetch();
 
         return exits.success(recordsAdded);
     }
