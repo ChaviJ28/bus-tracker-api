@@ -1,6 +1,11 @@
 module.exports.routes = {
 
     //user
+    "get /api": {
+        action: "index"
+    },
+
+    //user
     "post /api/v1/user/register": {
         action: "user/register"
     },
