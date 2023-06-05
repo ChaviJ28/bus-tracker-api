@@ -23,5 +23,9 @@ module.exports.routes = {
         action: "bus-routes/list"
     },
 
+    //coordinates
+    "post /api/v1/coordinates/list": {
+        action: "coordinates/list"
+    },
 
 };
