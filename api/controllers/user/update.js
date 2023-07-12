@@ -28,13 +28,13 @@ module.exports = {
             responseType: "jsonOk"
         }
     },
-    fn: async function(inputs, exits) {
+    fn: async function (inputs, exits) {
         var req = this.req,
             error = [];
 
         try {
             if (inputs.data && inputs.data.search_criteria && inputs.data.update_params) {
-                updateResponse = await User.update(inputs.data.search_criteria, inputs.data.update_params)
+                updateResponse = await User.update(inputs.data.search_criteria, inputs.data.update_params).fetch()
 
                 return exits.success({
                     data: updateResponse
